@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("Welcome to the calculator!\n" +
                 "The calculator supports addition (+), subtraction(-), multiplication(*), division(/), unary minus (-) and parentheses operations.\n");
-        System.out.println("If you want to exit the calculator, then enter an empty line.");
+        //System.out.println("If you want to exit the calculator, then enter an empty line.");
         Scanner sc = new Scanner(System.in);
         String exp = sc.nextLine();
         Analyser pars;
